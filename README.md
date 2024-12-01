@@ -10,6 +10,8 @@ Advent of Code is an annual event featuring a series of fun and challenging prog
 ## 📂 Repository Structure
 Each day’s challenge is organized into its own folder. Below is the structure:
 
+
+```
 adventofcode2024/ 
 ├── Day01/ 
 │ ├── input.txt # Puzzle input 
@@ -17,6 +19,7 @@ adventofcode2024/
 ├── Day02/ 
 │ ├── ... 
 ├── ...
+```
 
 ### Files:
 - **`input.txt`**: The puzzle input provided by Advent of Code.
