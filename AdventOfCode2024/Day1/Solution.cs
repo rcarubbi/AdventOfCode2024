@@ -27,10 +27,7 @@ public class Solution
     public void Task1()
     {
         var (locationIdsLeft, locationIdsRight) = GetInput();
-
-        locationIdsLeft.Sort();
-        locationIdsRight.Sort();
-
+         
         var distance = CalculateDistances(locationIdsLeft, locationIdsRight).Sum();
 
         distance.Should().Be(1603498);
@@ -69,6 +66,9 @@ public class Solution
 
     private static IEnumerable<int> CalculateDistances(List<int> locationIdsLeft, List<int> locationIdsRight)
     {
+        locationIdsLeft.Sort();
+        locationIdsRight.Sort();
+
         for (int i = 0; i < locationIdsLeft.Count; i++)
         {
             yield return Math.Abs(locationIdsLeft[i] - locationIdsRight[i]);
