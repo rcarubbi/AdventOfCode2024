@@ -43,9 +43,6 @@ public class Solution
     {
         var (locationIds1, locationIds2) = GetInput();
 
-        locationIds1.Sort();
-        locationIds2.Sort();
-
         var similarity = CalculateSimilarities(locationIds1, locationIds2).Sum();
 
         similarity.Should().Be(25574739);
