@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 namespace AdventOfCode2024.Day4;
 
-public partial class Solution
+public class Solution
 {
 
     private static string[] GetInput()

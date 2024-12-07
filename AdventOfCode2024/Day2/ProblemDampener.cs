@@ -1,6 +1,4 @@
-﻿using Xunit;
-
-namespace AdventOfCode2024.Day2;
+﻿namespace AdventOfCode2024.Day2;
 
 public class ProblemDampener
 {
